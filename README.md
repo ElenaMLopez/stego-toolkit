@@ -74,7 +74,7 @@ However, they may provide hints what to look for if they find interesting irregu
 |Tool          |File types                |Description       |How to use     |
 |--------------|--------------------------|------------------|---------------|
 | [stegoVeritas](https://github.com/bannsec/stegoVeritas) | Images (JPG, PNG, GIF, TIFF, BMP) | A wide variety of simple and advanced checks. Check out `stegoveritas.py -h`. Checks metadata, creates many transformed images and saves them to a directory, Brute forces LSB, ... | `stegoveritas.py stego.jpg` to run all checks |
-| [zsteg](https://github.com/zed-0xff/zsteg) | Images (PNG, BMP) | Detects various LSB stego, also openstego and the [Camouflage tool](http://camouflage.unfiction.com/) | `zsteg -a stego.jpg` to run all checks |
+| [zsteg](https://github.com/zed-0xff/zsteg) | Images (PNG, BMP) | Detects various LSB stego, also openstego and the [Camouflage tool](http://camouflage.unfiction.com/) | `zsteg -a stego.png` to run all checks |
 | [stegdetect](http://old-releases.ubuntu.com/ubuntu/pool/universe/s/stegdetect) | Images (JPG) | Performs statistical tests to find if a stego tool was used (jsteg, outguess, jphide, ...). Check out `man stegdetect` for details. | `stegdetect stego.jpg` |
 | [stegbreak](https://linux.die.net/man/1/stegbreak) | Images (JPG) | Brute force cracker for JPG images. Claims it can crack `outguess`, `jphide` and `jsteg`. | `stegbreak -t o -f wordlist.txt stego.jpg`, use `-t o` for outguess, `-t p` for jphide or `-t j` for jsteg |
 
